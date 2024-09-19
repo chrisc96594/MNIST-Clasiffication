@@ -14,6 +14,12 @@ This project demonstrates how to build and train a neural network using TensorFl
 
 ## Overview
 The MNIST dataset is a collection of 70,000 grayscale images of handwritten digits (0-9). The goal of the project is to train a neural network to recognize and predict the digits accurately.
+Preprocessing: Loads and processes the MNIST dataset.
+Display Functions: Includes code to visualize both individual samples and a concatenated view of multiple images.
+Model: Defines a simple neural network with 512 neurons in the hidden layer, using sigmoid activation and softmax for the output.
+Training: Trains the model for 3000 steps with batched data and stochastic gradient descent (SGD).
+Evaluation: Computes accuracy on both training batches and the test dataset.
+Misclassifications: Displays any misclassified images.
 
 ## Data
 The MNIST dataset contains:
@@ -27,7 +33,9 @@ The neural network architecture includes:
 - **Input Layer**: 784 neurons (28x28 pixels)
 - **Hidden Layer**: 512 neurons with sigmoid activation
 - **Output Layer**: 10 neurons (one for each class)
-
+## Results
+Training Accuracy: Achieved ~98% accuracy on the training data.
+Test Accuracy: Achieved ~97% accuracy on the test dataset.
 ```python
 # Simple Network Architecture in TensorFlow
 def neural_net(inputData):
