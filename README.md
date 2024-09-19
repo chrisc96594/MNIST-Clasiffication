@@ -2,7 +2,7 @@
 
 This project demonstrates how to build and train a neural network using TensorFlow to classify handwritten digits from the MNIST dataset. It covers key data science concepts like data preprocessing, model building, training, and evaluation.
 
-![MNIST Digits Sample](path-to-your-image.png)
+![MNIST Digits Sample]
 
 ## Table of Contents
 
@@ -10,9 +10,8 @@ This project demonstrates how to build and train a neural network using TensorFl
 - [Data](#data)
 - [Model Architecture](#model-architecture)
 - [Results](#results)
-- [How to Run](#how-to-run)
 - [Dependencies](#dependencies)
-- [Contributors](#contributors)
+- [Contributors](#Christos Cholevas)
 
 ## Overview
 The MNIST dataset is a collection of 70,000 grayscale images of handwritten digits (0-9). The goal of the project is to train a neural network to recognize and predict the digits accurately.
